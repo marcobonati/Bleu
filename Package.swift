@@ -18,7 +18,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/1amageek/swift-actor-runtime", branch: "main"),
+        .package(url: "https://github.com/1amageek/swift-actor-runtime", from: "0.4.1"),
         .package(url: "https://github.com/apple/swift-log.git", from: "1.6.4"),
         .package(url: "https://github.com/1amageek/CoreBluetoothEmulator", branch: "main")
     ],
